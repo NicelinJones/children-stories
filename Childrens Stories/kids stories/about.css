@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: "Poppins", sans-serif;
+    margin:0;
+  }
+  #card{
+    background-color: white;
+    align-items: center;
+    transition: transform .5s;
+    display: block;
+    margin-left: auto;
+     margin-right: auto;
+     width: 80%;
+     height: 90vh;
+}
+  #card h3{
+    width: 80%;
+    height:fit-content;
+    text-align: center;
+    margin-left: auto;
+     margin-right: auto;
+    color:darkblue;
+    background-color:aqua;
+    margin-top: 100px;
+    font-size: xx-large;
+    font-weight:bold;
+  }
+  #card p{
+    width:80%;
+    height:fit-content;
+    text-align: center;
+    margin-left: auto;
+     margin-right: auto;
+    color:black;
+    background-color: aliceblue;
+  }
+  @media only screen and (max-width:320px){
+    #card h3{
+     font-size:large;
+    }
+    #card p{
+      font-size:smaller ;
+    }
+    
+}
+
+@media only screen and (min-width: 321px) and (max-width:480px) {
+
+  #card h3{
+    font-size:larger;
+   }
+   #card p{
+     font-size:small;
+   }
+  
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  #card h3{
+    font-size:x-large;
+   }
+   #card p{
+     font-size:medium;
+   } 
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  #card h3{
+    font-size:xx-large;
+   }
+   #card p{
+     font-size:medium;
+   }
+}
+
+/* Media Query for Laptops and Desktops */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+  #card h3{
+    font-size:xx-large;
+   }
+   #card p{
+     font-size:large;
+   }
+}
+
+/* Media Query for Large screens */
+@media only screen and (min-width: 1281px) {
+  #card h3{
+    font-size:xx-large;
+   }
+   #card p{
+     font-size:large;
+   }  
+}   
+ 
